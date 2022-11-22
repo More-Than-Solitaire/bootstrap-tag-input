@@ -32,7 +32,6 @@ function initTags(tagsList = []) {
         tagDiv.addEventListener('input', function (e) {
             let enteredTags = mainInput.innerText.split(SplitChars);
             if (enteredTags.length > 1) {
-                console.log(mainInput.innerText);
                 let inputLength = mainInput.innerText.length;
                 let leftovers = inputLength > 0 && mainInput.innerText.charAt(inputLength-1).match(SplitChars) == null ? enteredTags.pop() : "";
 
