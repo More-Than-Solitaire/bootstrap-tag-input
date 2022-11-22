@@ -1,4 +1,7 @@
 # bootstrap-tag-input
+
+![It's Fun, Simple, and Easy!](https://raw.githubusercontent.com/More-Than-Solitaire/bootstrap-tag-input/main/TagsInputFunSimpleEasy.png)
+
 A simple, easy-to-use library for creating tabs (or chips) as a multi-entry input option.  This library uses Bootstrap 5, and integrates nicely with Bootstrap code.  No jQuery needed!
 
 ## Usage
