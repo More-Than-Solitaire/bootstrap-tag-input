@@ -36,7 +36,7 @@ window.onload = function(event) {
 </div>
 ```
 
-## Options
+## Features
 
 ![Screenshot of this project](https://raw.githubusercontent.com/More-Than-Solitaire/bootstrap-tag-input/main/BootstrapTagsInputExamplesScreenshot.png)
 
@@ -98,6 +98,9 @@ We also give you the option of providing a regular expression that we'll use to 
 <br>
 ```
 
+![Image of a tag input using commas in the tags](https://raw.githubusercontent.com/More-Than-Solitaire/bootstrap-tag-input/main/TagsInputCustomSplitchars.png)
+![Image of the resulting code](https://raw.githubusercontent.com/More-Than-Solitaire/bootstrap-tag-input/main/TagsInputCodeCustomSplitchars.png)
+
 ### No label
 
 You don't need to include a label either: use a custom label, or forego it altogether! 
@@ -108,3 +111,9 @@ You don't need to include a label either: use a custom label, or forego it altog
     <div class="tags-input form-control tag-bg-danger"></div>
 </div>
 ```
+
+### Pretty line wrapping
+
+When your users enter too many tags, the Tag Input just wraps around to a new line to make room for more!
+
+![Image of Tag Inputs with lots of tags](https://raw.githubusercontent.com/More-Than-Solitaire/bootstrap-tag-input/main/TagsInputManyTags.png)
