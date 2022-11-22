@@ -70,7 +70,7 @@ You can use the [bootstrap colors](https://getbootstrap.com/docs/5.2/utilities/c
 
 ### Accessing the results
 
-The tag input stores the actual data, comma separated, in a hidden input.  You can choose the `name` attribute of that hidden input by entering it in the `data-name` attribute in your basic `div`.  
+The tag input stores the actual data, comma separated, in a hidden input.  You can choose the `name` attribute of that hidden input by entering it in the `data-name` attribute in your basic `div`.  The contents of all the tags are stored in a **comma separated** list in the value field of the hidden input.
 
 ```html
 <!-- Name the hidden input field so you can find it in your code -->
