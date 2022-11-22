@@ -66,6 +66,8 @@ You can use the [bootstrap colors](https://getbootstrap.com/docs/5.2/utilities/c
 <br>
 ```
 
+![Custom Styling Example Image](https://raw.githubusercontent.com/More-Than-Solitaire/bootstrap-tag-input/main/TagsInputColorsExample.png)
+
 ### Accessing the results
 
 The tag input stores the actual data, comma separated, in a hidden input.  You can choose the `name` attribute of that hidden input by entering it in the `data-name` attribute in your basic `div`.  
@@ -94,11 +96,13 @@ We also give you the option of providing a regular expression that we'll use to 
     <div class="tags-input form-control" data-splitchars="[;']"></div>
 </div>
 <br>
+```
 
 ### No label
 
 You don't need to include a label either: use a custom label, or forego it altogether! 
 
+```html
 <!-- No label -->
 <div class="input-group">
     <div class="tags-input form-control tag-bg-danger"></div>
