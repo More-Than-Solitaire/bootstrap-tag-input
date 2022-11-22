@@ -11,6 +11,13 @@ You only need the bootstrap library (and the JS and css files from this project)
 <!-- Bootstrap Tag Input -->
 
 
+<!-- initialize page (only needs to be called once, even for multiple inputs) -->
+<script>
+window.onload = function(event) {
+    initTags();
+}
+</script>
+
 <!-- Basic tags input  -->
 <div class="input-group">
     <span class="input-group-text">Basic tags input</span>
