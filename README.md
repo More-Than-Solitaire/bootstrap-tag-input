@@ -10,7 +10,7 @@ You only need the bootstrap library (and the JS and css files from this project)
 
 <!-- Bootstrap Tag Input -->
 <link href="https://cdn.jsdelivr.net/gh/More-Than-Solitaire/bootstrap-tag-input@main/tags.css" rel="stylesheet">
-<script src=""></script>
+<script src="https://cdn.jsdelivr.net/gh/More-Than-Solitaire/bootstrap-tag-input@main/tags.js"></script>
 
 <!-- initialize page (only needs to be called once, even for multiple inputs) -->
 <script>
